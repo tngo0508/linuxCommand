@@ -1,2 +1,2 @@
 ### setup tim in utc
-$ timedatectl set-timezone UTC
+`timedatectl set-timezone UTC`
