@@ -5,11 +5,13 @@
  $ cd project.git
  $ git init`
 ### Git on the client
-`$ cd local_project
+```sh
+ $ cd local_project
  $ git init
  $ git add .
  $ git commit -m 'message'
- $ git remote add origin git@gitserver:/srv/git/project.git`
+ $ git remote add origin git@gitserver:/srv/git/project.git
+ ```
  #### Git for pushing
  `$ git push origin master`
  #### Git for download
