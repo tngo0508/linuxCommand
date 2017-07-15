@@ -1,9 +1,11 @@
 ### setup time in utc
 `timedatectl set-timezone UTC`
-### Git on the server 
-`$ mkdir project.git
+### Git on the server
+```sh
+ $ mkdir project.git
  $ cd project.git
- $ git init`
+ $ git init
+```
 ### Git on the client
 ```sh
  $ cd local_project
