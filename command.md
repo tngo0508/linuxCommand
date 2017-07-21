@@ -18,3 +18,13 @@
  `$ git push origin master`
  #### Git for download
  `$ git clone git@gitserver:/srv/git/project.git`
+ #### Git auto-completion
+ ```
+ $ curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+ $ mv ~/git-completion.bash ~/.git-completion.bash
+ ```
+ Go to .bashrc or .bash_profile and add following codes
+ if [ -f ~/.git-completion.bash ]; then
+    source ~/.git-completion.bash
+ if
+ 
