@@ -32,6 +32,7 @@
  #### Vim find and replace patterns/words across mutiple files
  
   All *.cpp files in current directory.
+  
  `:arg *.cpp` 	
  
   And all *.h files.
