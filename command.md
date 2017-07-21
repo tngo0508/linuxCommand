@@ -30,11 +30,11 @@
  if
  ```
  #### Vim find and replace patterns/words across mutiple files
- All *.cpp files in current directory.
+  All *.cpp files in current directory.
  `:arg *.cpp` 	
- And all *.h files.
+  And all *.h files.
 `:argadd *.h` 	
- Optional: Display the current arglist.
+  Optional: Display the current arglist.
  `:arg`
- Search and replace in all files in arglist.
+  Search and replace in all files in arglist.
  `:argdo %s/pattern/replace/ge | update`
