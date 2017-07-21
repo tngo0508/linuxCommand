@@ -24,7 +24,9 @@
  $ mv ~/git-completion.bash ~/.git-completion.bash
  ```
  Go to .bashrc or .bash_profile and add following codes
+ ```bash
  if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
  if
+ ```
  
