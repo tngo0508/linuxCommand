@@ -29,6 +29,11 @@
     source ~/.git-completion.bash
  if
  ```
+ #### Git rename file
+ ```
+ $ git mv name_file new_name
+ ```
+ 
  #### Vim find and replace patterns/words across mutiple files
  
   All *.cpp files in current directory.
